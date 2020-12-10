@@ -1,0 +1,33 @@
+i - dan
+N = 10000
+M - št. celic
+
+Oseba (class - array)
+	- stanje
+	- kdaj se spremeni stanje
+
+Celica (class - array)
+	- start
+	- stop
+	- stanje
+	- sprememba
+
+Nivo osebe
+	- kužni grejo v bolane z verjetnostjo b_j 
+		-- funkcija, ki pove ali oseba zboli ali ne pri taki verjetnosti b_j
+	- kužni grejo v odporne, če v 10 dneh ne zboli
+	- bolni grejo v odporne po 14 dneh 
+
+
+Nivo celice
+	- iz Dovzetnega v kužnega, ko dobi prvega kužnega, naslednji dan so vsi okuženi, sprememba stanja celice
+	- Ko 1. zboli vsi zbolijo, spremeba stanja celice
+	- kužni, bolni v odporne, če so vsi člani odporni
+
+Nivo populacije
+	- dovzetni v kužne
+		-- funkcija, ki zračuna K, B, D in O tisti dan (K = (a1*K + a2*B)*D*N)
+	- novookužene porazdelimo po tisti dan dovzetnih celicah (random)
+
+Grupiranje
+	- 
